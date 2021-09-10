@@ -1,8 +1,8 @@
 body {
+    animation-delay: 1s;
     animation: fadeInAnimation ease 1s;
-    animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
+    
     background-color: white;
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -61,7 +61,7 @@ body {
     min-width: 125px;
 
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 12pt;
     padding: 5px 25px;
 
     transition-duration: .25s;
@@ -73,9 +73,23 @@ body {
 }
 
 .content {
-
+    
 }
 
 h1.new1{
     text-align: center;
+}
+
+#pagetitle {
+    text-align: center;
+    font-size: 20pt;
+    padding-bottom: 11px;
+    max-height: 12px;
+}
+
+hr.hr1 {
+    background-color:rgb(223, 223, 223);
+    max-width: 35%;
+    border-style:solid;
+    border-color: rgb(223, 223, 223);
 }
