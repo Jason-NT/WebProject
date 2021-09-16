@@ -127,6 +127,7 @@ hr {
     max-width: 50%;
     border-style:solid;
     border-color: rgb(223, 223, 223);
+<<<<<<< HEAD
 }
 
 hr.hr1 {
@@ -136,3 +137,18 @@ hr.hr1 {
 hr.hr2 {
     max-width: 35%;
 }
+||||||| a7f4037
+}
+=======
+}
+
+#leaf_pic {
+    width: 120px;
+    height: 170px;
+    float: right;
+}
+
+#outer_background {
+    background-color:rgb(166, 255, 166);
+}
+>>>>>>> e61efa2d77858be8f4ef2d8ab3c9e90bb834310e
