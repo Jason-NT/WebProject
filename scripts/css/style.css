@@ -72,10 +72,6 @@ body {
     color: white;
 }
 
-.content {
-    
-}
-
 h1.new1{
     text-align: center;
 }
@@ -103,3 +99,23 @@ hr.hr1 {
 #outer_background {
     background-color:rgb(166, 255, 166);
 }
+
+#food_list{
+    border-style: double;
+    border-width: 5px;
+    border-radius: 12px;
+    border-color: rgb(130, 195, 119);
+    max-width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+#list_items {
+    text-align: left;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
